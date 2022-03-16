@@ -36,3 +36,90 @@
     transform: rotate(360deg);
   }
 }
+
+.TileGrid {
+display: flex;
+  flex-direction: column;
+}
+
+.TileRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Tile {
+  color: white;
+  width: 62px;
+  height: 62px;
+  font-size: 32px;
+  border-color: rgb(86,87,88);
+  align-items: center;
+  border-style: solid;
+  border-width: 2px;
+  font-family: "Clear Sans", "Helvetica Neue", Arial;
+  margin: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  vertical-align: middle;
+  display: inline-flex;
+  justify-content: center;
+  background-color: rgb(18,18,19);
+  user-select: none;
+
+}
+
+.Green {
+  background-color: rgb(83, 141, 78);
+  border-color: rgb(83, 141, 78);
+}
+
+.Red {
+  background-color: rgb(58,58,58);
+  border-color: rgb(58,58,58);
+}
+
+.Yellow {
+  background-color: rgb(181,159,59);
+  border-color: rgb(181,159,59);
+}
+
+.MatchText {
+  font-size: 16px;
+  color: white;
+}
+
+
+.MatchWord {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.Match {
+  color: #00FF00;
+}
+
+.MatchFrequency {
+  font-style: italic;
+  color: gray;
+}
+
+.Best {
+  font-style: italic;
+  color: #00FF00;
+}
+
+
+
+.MatchText:hover {
+  color: black;
+  background-color: greenyellow;
+
+}
+
+
+.UIText {
+  font-size: 16px;
+  font-weight: normal;
+  color: white;
+}
